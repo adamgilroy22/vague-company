@@ -8,7 +8,12 @@
   --slate: #353535;
 }
 
-/* Remove the navbar's default margin-bottom and rounded borders */ 
+body {
+  background-color: var(--off-white);
+  color: var(--slate);
+}
+
+/* Nav */ 
 .navbar {
   margin-bottom: 0;
   background-color: var(--main-teal) !important;
@@ -51,4 +56,50 @@
   font-size: 16px;
   margin: 4px 2px;
   padding: 20px;
+}
+
+/* About Us */
+.about-us {
+  padding: 75px;
+  margin: auto;
+  width: 50%;
+}
+
+.values {
+  text-align: right;
+}
+
+.icon {
+  font-size: 180px;
+  color: var(--orange);
+  display: inline-block;
+}
+
+.about-line {
+  border: 1px solid var(--dark-teal);
+  width: 85%;
+}
+
+.where-we-do-stuff {
+  background-color: var(--slate);
+  color: var(--off-white);
+  padding: 100px;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1200px) {
+  .about-us {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .icon {
+    display: none;
+  }
+
+  .values {
+    text-align: left;
+  }
 }
