@@ -1,3 +1,11 @@
+:root {
+  --main-teal: #0e9594;
+  --dark-teal: #127475;
+  --beige: #f5dfbb;
+  --orange: #f2542d;
+  --brown: #562c2c;
+}
+
 /* Remove the navbar's default margin-bottom and rounded borders */ 
   .navbar {
     margin-bottom: 0;
@@ -6,7 +14,7 @@
 
 /* Jumbotron */
 .jumbotron {
-  background-color: #0e9594;
+  background-color: var(--main-teal);
   color: #fafafa;
   padding: 100px 25px;
 }
