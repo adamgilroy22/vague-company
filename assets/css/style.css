@@ -4,6 +4,8 @@
   --beige: #f5dfbb;
   --orange: #f2542d;
   --brown: #562c2c;
+  --off-white: #fafafa;
+  --slate: #353535;
 }
 
 /* Remove the navbar's default margin-bottom and rounded borders */ 
@@ -15,6 +17,11 @@
 /* Jumbotron */
 .jumbotron {
   background-color: var(--main-teal);
-  color: #fafafa;
+  color: var(--off-white);
   padding: 100px 25px;
+}
+
+#find-out-btn {
+  background-color: var(--orange);
+  color: var(--slate);
 }
