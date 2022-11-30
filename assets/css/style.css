@@ -9,10 +9,29 @@
 }
 
 /* Remove the navbar's default margin-bottom and rounded borders */ 
-  .navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-  }
+.navbar {
+  margin-bottom: 0;
+  background-color: var(--main-teal) !important;
+  z-index: 9999;
+  border: 0;
+  font-size: 14px !important;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: var(--off-white) !important;
+  letter-spacing: 2px;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: var(--main-teal) !important;
+  background-color: var(--off-white) !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: var(--off-white) !important;
+}
 
 /* Jumbotron */
 .jumbotron {
