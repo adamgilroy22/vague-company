@@ -21,7 +21,15 @@
   padding: 100px 25px;
 }
 
-#find-out-btn {
+.find-out-btn {
   background-color: var(--orange);
-  color: var(--slate);
+  border: none;
+  border-radius: 15px;
+  color: var(--off-white);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  padding: 20px;
 }
