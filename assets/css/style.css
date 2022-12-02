@@ -33,6 +33,10 @@ h4 {
   padding: 60px 50px;
 }
 
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
 /* Nav */ 
 .navbar {
   margin-bottom: 0;
@@ -82,22 +86,18 @@ h4 {
 .about-us {
   padding: 75px;
   margin: auto;
-  width: 50%;
 }
 
 .values {
   text-align: right;
+  padding: 75px;
+  margin: auto;
 }
 
 .icon {
   font-size: 180px;
   color: var(--orange);
   display: inline-block;
-}
-
-.about-line {
-  border: 1px solid var(--dark-teal);
-  width: 85%;
 }
 
 /* How We Do Stuff */
@@ -156,12 +156,6 @@ h4 {
 }
 
 /* Media Queries */
-
-@media only screen and (max-width: 1200px) {
-  .about-us {
-    width: 100%;
-  }
-}
 
 @media only screen and (max-width: 767px) {
   .icon {
